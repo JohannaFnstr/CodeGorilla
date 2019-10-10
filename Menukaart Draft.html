@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Menukaart</title>
+    <link rel="stylesheet" type="text/css" href="menukaartstyle.css">
+</head>
+<body>
+    <div id="container">
+    <img src="https://communicatieteam.nl/wp-content/uploads/2018/08/Header-blog-Menukaart.png">
+        <form id="order"><table><caption><h1>Menukaart</h1></caption>
+                
+            <tbody>
+               <tr>
+                   <td>Koffie</td>
+                   <td>€ 2,50</td>
+                   <td><input type="number" id="koffie" value="0" min="0" max="10" style="width:50px;"></td>
+                </tr>
+              
+                <tr>
+                    <td>Thee</td>
+                    <td>€ 1,50</td>
+                    <td><input type="number" id="thee" value="0"  min="0" max="10" style="width:50px;"></td>
+                </tr>
+                 <tr>
+                    <td>Chocolademelk</td>
+                    <td>€ 3,00</td>
+                    <td><input type="number" id="chocolademelk" value="0"  min="0" max="10" style="width:50px;"></td>
+                </tr>
+                <tr>
+                        <td></td>
+                        <td></td>
+                        <td><button id="bestellen">Bestellen</button></td>
+                    </tr>
+                <tr>
+                   <td><div id="totaal"></div></td>
+                </tr>
+            </tbody></table>
+
+            <script type="text/javascript" src="Menukaart.js"></script>
+    
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+
+ <!-- <script>
+
+var koffie = document.getElementById("koffie");
+var koffieAantal = Number(koffie.value);
+
+var thee = document.getElementById("thee");
+var theeAantal = Number(thee.value);
+
+
+
+function calculate(){
+    var koffieAantal = Number(koffie.value);
+} -->
+
+<!-- // function Calculate(){
+//     var field1=document.getElementById("koffie").value;
+//     var field2=document.getElementById("thee").value;
+//     var field3=document.getElementById("chocolademelk").value;
+    
+//     if (field1.value>0){
+//         console.log(field1); 
+//     }
+
+//     var result=parseFloat(field1)+parseFloat(field2)+parseFloat(field3);
+
+    // if(!isNAN(result)){
+    //     document.getElementById("tebetalen").innerHTML="Het aantal is "+result;
+    // }
+
+
+
+    //  function verander()
+    //  {
+    //     var aantal = document.getElementById("koffie").value;
+    //     document.getElementById("aantal").innerHTML = aantal; 
+    //     var aantal = document.getElementById("thee").value;
+    //     document.getElementById("aantal").innerHTML = aantal;  
+    //     var aantal = document.getElementById("chocolademelk").value;
+    //     document.getElementById("aantal").innerHTML = aantal;
+    //  } -->
+ <!-- </script>        -->
+ 
+</body>
+</html>
